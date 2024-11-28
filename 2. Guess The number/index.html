@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1 class="heading">Guess The Number</h1>
+        </div>
+    </nav>
+
+    <main>
+        <div class="main-container">
+            <form action="" class="game-form">
+                <label for="number-input">Enter a guess between 0 to 100</label>
+                <input class="input-number" type="number" id="number-input" placeholder="Enter a number" max="100" min="0">
+                <button class="submit-btn" type="submit">Submit</button>
+                <button class="reset-btn" type="reset">Start Game</button>
+            </form>
+
+            <p class="score-closeness"></p>
+            <p class="your-guess"></p>
+        </div>
+    </main>
+
+</body>
+</html>
