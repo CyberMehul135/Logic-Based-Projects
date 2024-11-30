@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Nav-Bar */
+.nav-container {
+    height: 70px;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px;
+    background-image: linear-gradient(lavenderblush 0%, white 100%);
+    margin-bottom: 16px;
+}
+
+
+/* Main-content */
+.main-container {
+    text-align: center;
+}
+
+.telephone-number-input {
+    width: 243px;
+    height: 29px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
